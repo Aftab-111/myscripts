@@ -42,7 +42,7 @@ cdir() {
 KERNEL_DIR=$PWD
 
 # The name of the Kernel, to name the ZIP
-ZIPNAME="azure"
+ZIPNAME="arrow"
 
 # The name of the device for which the kernel is built
 MODEL="Redmi Note 7 Pro"
@@ -70,7 +70,7 @@ PTTG=1
 	if [ $PTTG = 1 ]
 	then
 		# Set Telegram Chat ID
-		CHATID="-1001231303646"
+		CHATID="-1001480355760"
 	fi
 
 # Generate a full DEFCONFIG prior building. 1 is YES | 0 is NO(default)
